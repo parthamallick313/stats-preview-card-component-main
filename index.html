@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="flex flex-col justify-center items-center gap-1 min-h-screen min-w-[375px] text-[15px] bg-[#090b1a]"
+  >
+    <header></header>
+
+    <main class="px-6 py-20 max-w-[375px] lg:max-w-[1144px]">
+      <div
+        class="flex flex-col lg:flex-row-reverse bg-[#1b1938] rounded-lg overflow-hidden"
+      >
+        <div class="bg-img lg:bg-img-lg lg:flex-1">
+          <img
+            src="images/image-header-mobile.jpg"
+            alt=""
+            class="opacity-0 lg:hidden"
+          />
+          <img
+            src="images/image-header-desktop.jpg"
+            alt=""
+            class="opacity-0 hidden lg:block"
+          />
+        </div>
+
+        <div
+          class="flex flex-col justify-center lg:justify-between items-center lg:text-left gap-4 lg:gap-0 text-center py-10 lg:p-16 lg:pr-0 lg:flex-1"
+        >
+          <h1
+            class="text-white text-3xl lg:text-4xl font-bold px-6 lg:px-0 lg:pr-20"
+          >
+            Get <span class="text-[#aa5cdb]">insights</span> that help your
+            business grow.
+          </h1>
+
+          <p class="text-[#ffffffbf] lg:text-base px-8 lg:px-0 lg:pr-32">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <div
+            class="flex flex-col lg:flex-row lg:justify-between lg:w-full lg:pr-40 gap-4 text-white mt-4"
+          >
+            <div>
+              <h2 class="text-2xl font-bold">10k+</h2>
+              <p class="uppercase text-[#ffffff99] mt-1">companies</p>
+            </div>
+
+            <div>
+              <h2 class="text-2xl font-bold">314</h2>
+              <p class="uppercase text-[#ffffff99] mt-1">templates</p>
+            </div>
+
+            <div>
+              <h2 class="text-2xl font-bold">12M+</h2>
+              <p class="uppercase text-[#ffffff99] mt-1">queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="text-[11px] text-white text-center">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-[#3e52a3]"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/parthamallick313"
+          target="_blank"
+          class="text-[#3e52a3]"
+          >Partha Mallick</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
